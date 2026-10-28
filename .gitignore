@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+.env
+*.DS_Store
+
+# CRITICAL: Never push your live cryptographic keys or configs
+data/keys/
+*.conf
+*.key
+
+# Ignore raw giant pcap files locally; these go to Kaggle instead
+data/captures/*.pcap
+data/captures/*.pcapng
